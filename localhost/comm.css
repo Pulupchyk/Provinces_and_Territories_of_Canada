@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgb(199, 209, 211);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.header a {
+  color: black;
+  text-decoration: none;
+}
+
+form {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 65px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 1px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  resize: none;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-box {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 1px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+
+.comment-content {
+  margin: 0;
+  padding: 0;
+}
+
+.comment-content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.comment-content h3 span {
+  color: #999;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.comment-content p {
+  margin: 10px 0;
+  padding: 0;
+}
+.comment-time {
+  font-size: 0.8em;
+  color: #666;
+  margin-left: 10px;
+}
